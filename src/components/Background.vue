@@ -1,8 +1,6 @@
 <template>
   <div>
     <div class="app-bg">
-      <div style="background-image: linear-gradient(to right, #FFFFE0, #98FB98); height: 100%;"></div>
-      <img src="../assets/bg.png" class="bg-img" />
     </div>
     <slot></slot>
   </div>

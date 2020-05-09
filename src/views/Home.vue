@@ -62,9 +62,6 @@ export default {
         }
       })
     },
-    noData() {
-      console.log(this.imgRoute);
-    }
   }
 };
 </script>

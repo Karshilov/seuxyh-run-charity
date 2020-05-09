@@ -4,7 +4,6 @@
     <img
       width="90%"
       :src="imgRoute"
-      :onerror="noData()"
     />
   </background>
 </template>
@@ -27,9 +26,6 @@ export default {
     getImgRoute() {
         this.imgRoute = this.$route.query.imgRoute;
     },
-    noData() {
-      console.log(this.imgRoute);
-    }
   }
 };
 </script>
